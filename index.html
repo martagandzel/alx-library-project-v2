@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Library Project</title>
+</head>
+
+<body>
+
+    <header class="header__container">
+        <h1 class="header__title">Welcome to your library</h1>
+    </header>
+    <nav class="nav__container">
+        <h2 class="nav__title">Browse by</h2>
+        <ul class="nav__list">
+            <li><button class="sort__button" id="btnCat">Category</button></li>
+            <li><button class="sort__button" id="btnTitAlph">Titles alphabetically</button></li>
+            <li><button class="sort__button" id="btnTitChron">Titles chronologically</button></li>
+        </ul>
+    </nav>
+
+    <h2 class="main__title">Your Library</h2>
+
+    <section class="search__container">
+        <form>
+            <label class="search__label" for="searchInput">
+                Search for a book
+                <input id="searchInput" class="search__input" type="text" placeholder="Search...">
+            </label>
+        </form>
+    </section>
+
+    <main id="library" class="library__container"></main>
+
+    <aside>
+        <details>
+            <summary>Add your own book</summary>
+
+            <form id="addBookForm" class="addBook__container">
+                <label for="addTitle">
+                    Add the title
+                    <input id="addTitle" type="text" class="addBook__input" name="addBook"
+                        placeholder="Type in the title" required>
+                </label>
+                <label for="addAuthor">
+                    Add the author
+                    <input id="addAuthor" type="text" class="addBook__input" name="addBook"
+                        placeholder="Type in the author" required>
+                </label>
+                <label for="addYear">
+                    Add the publication year
+                    <input id="addYear" type="text" class="addBook__input" name="addBook"
+                        placeholder="Type in the year of release" required>
+                </label>
+                <label for="addCat">
+                    Add the category
+                    <input id="addCat" type="text" class="addBook__input" name="addBook"
+                        placeholder="Type in the category" required>
+                </label>
+                <label for="addImg">
+                    Add link to the cover
+                    <input id="addImg" type="text" class="addBook__input" name="addBook"
+                        placeholder="Paste the url of the cover" required>
+                </label>
+            </form>
+
+            <button id="addBookBtn" class="addBook__button">Submit</button>
+        </details>
+    </aside>
+
+    <footer>
+        <p>Library Project &copy; 2022</p>
+    </footer>
+
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>

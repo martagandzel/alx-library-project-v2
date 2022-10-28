@@ -1,0 +1,225 @@
+:root {
+    --main-light-color: #fdfff5;
+    --main-dark-color: #292929;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background-color: var(--main-light-color);
+    color: var(--main-dark-color);
+}
+
+.header__container {
+    background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title {
+    font-size: 4rem;
+    color: var(--main-light-color);
+}
+
+.main__title,
+summary,
+.addBook__button {
+    margin-left: 3rem;
+}
+
+.main__title,
+.nav__title,
+summary {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.nav__container,
+.search__container,
+.addBook__container {
+    margin-left: 3rem;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.sort__button,
+.addBook__button {
+    font-size: medium;
+    padding: 0.7rem;
+    margin-right: 1rem;
+    background-color: var(--main-dark-color);
+    border: none;
+    color: var(--main-light-color);
+    cursor: pointer;
+}
+
+.search__input,
+.addBook__input {
+    margin-left: 1rem;
+    margin-bottom: .7rem;
+    padding: .7rem 1rem;
+    border: none;
+    border-bottom: 1px solid var(--main-dark-color);
+    background-color: var(--main-light-color);
+}
+
+.search__input:focus,
+.search__input:focus-visible,
+.addBook__input:focus,
+.addBook__input:focus-visible {
+    border: 1px solid var(--main-dark-color);
+    outline: none;
+}
+
+.library__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 3rem;
+}
+
+.book__container {
+    margin-left: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.book__img__container {
+    padding-top: 3rem;
+    padding-right: 1.5rem;
+}
+
+.book__img__container img {
+    width: 5rem;
+    height: 8rem;
+}
+
+.book__details__container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.book__details__title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.book__details__author {
+    font-weight: 600;
+}
+
+.book__details__container p {
+    font-weight: 400;
+}
+
+.book__details__container p:nth-child(3),
+.book__details__container p:nth-child(4) {
+    font-size: small;
+}
+
+.book__details__year,
+.book__details__category {
+    font-weight: 600;
+    color: grey;
+}
+
+summary:focus-visible {
+    outline: 1px solid var(--main-dark-color);
+}
+
+.addBook__container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.addBook__button {
+    margin-top: 2rem;
+}
+
+footer {
+    margin-top: 3rem;
+    height: 7rem;
+    background-color: var(--main-dark-color);
+    color: var(--main-light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1280px) {
+    .library__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav__container,
+    .search__container,
+    .addBook__container,
+    .main__title,
+    summary,
+    .addBook__button,
+    .book__container {
+        margin-left: 1rem;
+    }
+
+    .library__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header__title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 488px) {
+    .library__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sort__button {
+        height: 4rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__container {
+        height: 10rem;
+    }
+
+    .header__title {
+        font-size: 2rem;
+    }
+
+    .nav__list {
+        flex-direction: column;
+    }
+
+    .sort__button {
+        height: 2.5rem;
+        margin-top: .5rem;
+    }
+
+    .search__input {
+        margin-left: 0;
+    }
+
+}

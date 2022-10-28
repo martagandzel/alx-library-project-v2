@@ -1,0 +1,271 @@
+{
+  "library": [
+    {
+      "title": "The Eye of the World",
+      "author": "Robert Jordan",
+      "year": "1990",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659905815i/228665.jpg",
+      "alt": "Cover for The Eye of the World"
+    },
+    {
+      "title": "The Great Hunt",
+      "author": "Robert Jordan",
+      "year": "1990",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659905799i/233649.jpg",
+      "alt": "Cover for The Great Hunt"
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "year": "1937",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+      "alt": "Cover for The Hobbit"
+    },
+    {
+      "title": "The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "year": "1954",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654215925i/61215351.jpg",
+      "alt": "Cover for The Fellowship of the Ring"
+    },
+    {
+      "title": "The Two Towers",
+      "author": "J.R.R. Tolkien",
+      "year": "1954",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654216149i/61215372.jpg",
+      "alt": "Cover for The Two Towers"
+    },
+    {
+      "title": "The Return of the King",
+      "author": "J.R.R. Tolkien",
+      "year": "1955",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654216226i/61215384.jpg",
+      "alt": "Cover for The Return of the King"
+    },
+    {
+      "title": "A Wizard of Earthsea",
+      "author": "Ursula K. Le Guin",
+      "year": "1968",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353424536i/13642.jpg",
+      "alt": "Cover for A Wizard of Earthsea"
+    },
+    {
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "year": "1897",
+      "category": "horror",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387151694i/17245.jpg",
+      "alt": "Cover for Dracula"
+    },
+    {
+      "title": "The Savage Earth",
+      "author": "P.T. Hylton, Jonathan Benecke",
+      "year": "2017",
+      "category": "si-fi",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1493565343i/35017051.jpg",
+      "alt": "Cover for The Savage Earth"
+    },
+    {
+      "title": "Woman in Cabin 10",
+      "author": "P.T. Hylton, Jonathan Benecke",
+      "year": "2016",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465878007i/28187230.jpg",
+      "alt": "Cover for Woman in Cabin 10"
+    },
+    {
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "year": "2008",
+      "category": "si-fi",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052.jpg",
+      "alt": "Cover for The Hunger Games"
+    },
+    {
+      "title": "Catching Fire",
+      "author": "Suzanne Collins",
+      "year": "2009",
+      "category": "si-fi",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722941i/6148028.jpg",
+      "alt": "Cover for Catching Fire"
+    },
+    {
+      "title": "Mockingjay",
+      "author": "Suzanne Collins",
+      "year": "2010",
+      "category": "si-fi",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722918i/7260188.jpg",
+      "alt": "Cover for Mockingjay"
+    },
+    {
+      "title": "Someone Else’s Skin",
+      "author": "Sarah Hilary",
+      "year": "2014",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1409223715i/21350894.jpg",
+      "alt": "Cover for Someone Else’s Skin"
+    },
+    {
+      "title": "Little Fires Everywhere",
+      "author": "Celeste Ng",
+      "year": "2017",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1522684533i/34273236.jpg",
+      "alt": "Cover for Little Fires Everywhere"
+    },
+    {
+      "title": "Death on the Nile",
+      "author": "Agatha Christie",
+      "year": "1937",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1486837149i/131359.jpg",
+      "alt": "Cover for Death on the Nile"
+    },
+    {
+      "title": "Murder on the Orient Express",
+      "author": "Agatha Christie",
+      "year": "1934",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1486131451i/853510.jpg",
+      "alt": "Cover for Murder on the Orient Express"
+    },
+    {
+      "title": "The Girl Before",
+      "author": "JP Delaney",
+      "year": "2017",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1485972587i/28016509.jpg",
+      "alt": "Cover for The Girl Before"
+    },
+    {
+      "title": "Dead Water",
+      "author": "Ann Cleeves",
+      "year": "2013",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347718206i/16009500.jpg",
+      "alt": "Cover for Dead Water"
+    },
+    {
+      "title": "The Moth Catcher",
+      "author": "Ann Cleeves",
+      "year": "2015",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1430154889i/25307677.jpg",
+      "alt": "Cover for The Moth Catcher"
+    },
+    {
+      "title": "The Heron's Cry",
+      "author": "Ann Cleeves",
+      "year": "2021",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1623116403i/56269063.jpg",
+      "alt": "Cover for The Heron's Cry"
+    },
+    {
+      "title": "The Body in the Marsh",
+      "author": "Nick Louth",
+      "year": "2017",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1505229479i/36228143.jpg",
+      "alt": "Cover for The Body in the Marsh"
+    },
+    {
+      "title": "Angel Maker",
+      "author": "Morgan Greene",
+      "year": "2021",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1611965065i/56882277.jpg",
+      "alt": "Cover for Angel Maker"
+    },
+    {
+      "title": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "year": "2015",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574805682i/22557272.jpg",
+      "alt": "Cover for The Girl on the Train"
+    },
+    {
+      "title": "The Blackhouse",
+      "author": "Peter May",
+      "year": "2011",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328052791i/10305247.jpg",
+      "alt": "Cover for The Blackhouse"
+    },
+    {
+      "title": "The Lewis Man",
+      "author": "Peter May",
+      "year": "2011",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328645011i/12782865.jpg",
+      "alt": "Cover for The Lewis Man"
+    },
+    {
+      "title": "The Chessmen",
+      "author": "Peter May",
+      "year": "2012",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348337298i/15832513.jpg",
+      "alt": "Cover for The Chessmen"
+    },
+    {
+      "title": "The Sixth Victim",
+      "author": "Tessa Harris",
+      "year": "2017",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1494432304i/32034806.jpg",
+      "alt": "Cover for The Sixth Victim"
+    },
+    {
+      "title": "Rules for Perfect Murders",
+      "author": "Peter Swanson",
+      "year": "2020",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1577276302i/49866475.jpg",
+      "alt": "Cover for Rules for Perfect Murders"
+    },
+    {
+      "title": "The Confession",
+      "author": "Jo Spain",
+      "year": "2018",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1549635418i/34941666.jpg",
+      "alt": "Cover for The Confession"
+    },
+    {
+      "id": "0febe4b6-db31-4a49-9fe4-d38a02d6f3f7",
+      "title": "Vlad: The Last Confession",
+      "author": "C.C. Humphreys",
+      "year": "2008",
+      "category": "historical fiction",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546092935i/4712458.jpg",
+      "alt": "Cover for Vlad: The Last Confession"
+    },
+    {
+      "id": "59031ed9-f122-46fa-a380-6aec4bb41e11",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "year": "1818",
+      "category": "horror",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631088473i/35031085.jpg",
+      "alt": "Cover for Frankenstein"
+    },
+    {
+      "id": "caacdd66-014d-4886-aaac-2c10528d45a7",
+      "title": "Shadowplay",
+      "author": "Joseph O'Connor",
+      "year": "2019",
+      "category": "historical fiction",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546223576i/41723505.jpg",
+      "alt": "Cover for Shadowplay"
+    }
+  ]
+}
