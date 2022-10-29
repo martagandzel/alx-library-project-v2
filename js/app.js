@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnCat = document.querySelector("#btnCat");
     const btnTitAlph = document.querySelector("#btnTitAlph");
     const btnTitChron = document.querySelector("#btnTitChron");
+    const btnAuthor = document.querySelector('#btnAuthor');
     const searchInput = document.querySelector('#searchInput');
 
     // catching elements for adding a new book
@@ -18,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const addYearInput = document.querySelector('#addYear');
     const addCatInput = document.querySelector('#addCat');
     const addImgInput = document.querySelector('#addImg');
+    const warning = document.querySelector("#warning");
 
     let libraryOfBooks = [];
 
@@ -73,6 +75,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const handleAddingBook = event => {
         event.preventDefault();
 
+        if (addTitleInput.value.length < 1 || addAuthorInput.value.length < 1 || addYearInput.value.length < 1 || addCatInput.value.length < 1 || addImgInput.value.length < 1) {
+            warning.classList.remove('hide');
+            return
+        }
+
         const newBook = {
             id: uuidv4(),
             title: addTitleInput.value,
@@ -90,6 +97,8 @@ document.addEventListener("DOMContentLoaded", function () {
         addYearInput.value = '';
         addCatInput.value = '';
         addImgInput.value = '';
+
+        warning.classList.add('hide');
     }
 
     const fetchLibrary = () => {
@@ -112,6 +121,10 @@ document.addEventListener("DOMContentLoaded", function () {
     btnTitChron.addEventListener('click', () => {
         showLibrary(sortBy(libraryOfBooks, 'year'))
     });
+
+    btnAuthor.addEventListener('click', () => {
+        showLibrary(sortBy(libraryOfBooks, 'author'))
+    })
 
     searchInput.addEventListener('keyup', handleSearch);
 
