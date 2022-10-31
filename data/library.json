@@ -275,6 +275,15 @@
       "category": "historical fiction",
       "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1592232171i/30236962.jpg",
       "alt": "Cover for The Historian"
+    },
+    {
+      "id": "877c46a2-61e5-42c0-bb9b-0a99e15be407",
+      "title": "The Jane Austen Book Club",
+      "author": "Karen Joy Fowler",
+      "year": "2004",
+      "category": "fiction",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309282966i/2152.jpg",
+      "alt": "Cover for The Jane Austen Book Club"
     }
   ]
 }
